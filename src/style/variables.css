@@ -1,0 +1,11 @@
+:root {
+    --largura-maxima: 1440px;
+
+    --fonte-titulos: 'Poppins', sans-serif;
+    --peso-fonte-titulos: 600; 
+
+    --fonte-corpo: 'Open Sans', sans-serif;
+    --peso-fonte-corpo: 400;
+
+    --cor-fundo-hover: hsl(300, 69%, 71%);
+}
