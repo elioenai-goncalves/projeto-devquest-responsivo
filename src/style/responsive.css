@@ -1,0 +1,100 @@
+@media (max-width: 1024px) {
+  body {
+    height: 100vh;
+  }
+
+  main {
+    background-image: url(../images/bg-mobile.svg);
+    background-size: 100%;
+  }
+
+  img {
+    width: 80%;
+  }
+
+  .section {
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+  }
+
+  .textos-button {
+    display: block;
+    text-align: center;
+  }
+
+  .info {
+    font-size: 40px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+    text-align: center;
+    padding: 30px;
+  }
+
+  .texto {
+    font-size: 20px;
+    padding: 50px;
+  }
+
+  .registro {
+    margin: 0 auto;
+  }
+
+  .footer {
+    display: flex;
+    margin: 0;
+    padding: 100px 100px;
+  }
+}
+
+
+@media (max-width: 768px) {
+  body {
+    height: 100vh;
+  }
+
+  main {
+    background-image: url(../images/bg-mobile.svg);
+    background-size: 100%;
+  }
+
+  img {
+    width: 80%;
+  }
+}
+
+@media (max-width: 375px) {
+  body {
+    height: 100vh;
+  }
+
+  main {
+    background-image: url(../images/bg-mobile.svg);
+  }
+
+  img {
+    width: 100%;
+  }
+
+  .logo {
+    max-width: 150px;
+    padding: 30px 0 0 30px;
+  }
+
+  .imagem-paginas {  
+    padding: 30px;
+  }
+
+  .info {
+    font-size: 20px;
+    padding: 30px;
+  }
+
+  .texto {
+    font-size: 15px;
+    padding: 30px;
+  }
+}
