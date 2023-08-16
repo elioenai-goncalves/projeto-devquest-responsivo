@@ -1,154 +1,87 @@
 body {
-    max-width: var(--largura-maxima);
+  max-width: var(--largura-maxima);
+  max-height: var(--altura-maxima);
 }
 
 main {
-    max-width: var(--largura-maxima);
-    background-color: hsl(257, 40%, 49%);
-    background-image: url(../images/bg-desktop.svg);
-    background-repeat: no-repeat;
+  max-width: var(--largura-maxima);
+  background-color: hsl(257, 40%, 49%);
+  background-image: url(../images/bg-desktop.svg);
+  background-repeat: no-repeat;
 }
 
 .logo {
-    padding: 60px 0 0 65px;
-    max-width: 280px;
+  padding: 60px 0 0 65px;
+  max-width: 280px;
 }
 
 .section {
-    display: flex;
-    padding-top: 15px;
+  display: flex;
+  padding-top: 15px;
 }
 
 .imagem-paginas {
-    padding: 60px 0 30px 75px;
+  padding: 60px 0 30px 75px;
 }
 
 .info {
-    font-family: var(--fonte-titulos);
-    font-weight: var(--peso-fonte-titulos);
-    font-size: 40px;
-    color: #ffffff;
-    padding: 100px 170px 0 45px;
+  font-family: var(--fonte-titulos);
+  font-weight: var(--peso-fonte-titulos);
+  font-size: 40px;
+  color: #ffffff;
+  padding: 100px 170px 0 45px;
 }
 
 .texto {
-    font-family: var(--fonte-corpo);
-    font-weight: var(--peso-fonte-corpo);
-    line-height: 25px;
-    color: #ffffff;
-    padding: 30px 150px 40px 45px;
+  font-family: var(--fonte-corpo);
+  font-weight: var(--peso-fonte-corpo);
+  line-height: 25px;
+  color: #ffffff;
+  padding: 30px 150px 40px 45px;
 }
 
 .registro {
-    font-family: var(--fonte-corpo);
-    font-weight: var(--peso-fonte-corpo);
-    color: hsl(257, 40%, 49%);
-    margin-left: 45px;
-    padding: 10px 50px;    
-    background-color: #ffffff;
-    border: 1px solid #ffffff;
-    border-radius: 20px;
+  font-family: var(--fonte-corpo);
+  font-weight: var(--peso-fonte-corpo);
+  color: hsl(257, 40%, 49%);
+  margin-left: 45px;
+  padding: 10px 50px;
+  background-color: #ffffff;
+  border: 1px solid #ffffff;
+  border-radius: 20px;
 }
 
 .registro:hover {
-    color: #ffffff;
-    background-color: var(--cor-fundo-hover);
-    border: var(--cor-fundo-hover);
-    transition: 0.3s ease-in-out;
+  color: #ffffff;
+  background-color: var(--cor-fundo-hover);
+  border: var(--cor-fundo-hover);
+  transition: 0.3s ease-in-out;
 }
 
 .footer {
-    display: flex;
-    justify-content: space-between;
-    margin: 0 130px 0 1160px;
-    padding-bottom: 30px;
+  display: flex;
+  justify-content: space-between;
+  margin: 0 130px 0 1160px;
+  padding-bottom: 30px;
+}
+
+ul {
+  display: flex;
+}
+
+li {
+  padding: 10px;
 }
 
 i {
-    padding: 10px;
-    color: #ffffff;
-    border: 1px solid #ffffff;
-    border-radius: 50%;
+  padding: 10px;
+  color: #ffffff;
+  border: 1px solid #ffffff;
+  border-radius: 50%;
 }
 
 i:hover {
-    color: var(--cor-fundo-hover);
-    border: 1px solid var(--cor-fundo-hover);
-    transition: 0.3s ease-in-out;
+  color: var(--cor-fundo-hover);
+  border: 1px solid var(--cor-fundo-hover);
+  transition: 0.3s ease-in-out;
 }
-
-@media (max-width: 375px) {
-    body {
-        height: 100vh;
-    }
-
-    main {
-        background-image: url(../images/bg-mobile.svg);
-    }
-
-    img {
-        width: 100%;
-    }
-
-    .logo {
-        max-width: 200px;
-        padding: 30px 0 0 30px;
-    }
-
-    .section {
-        flex-direction: column;
-        flex-wrap: wrap;
-        justify-content: center;
-        align-content: center;
-    }
-
-    .imagem-paginas {
-        display: flex;
-        flex-wrap: wrap;
-        justify-content: center;
-        align-content: center;
-        padding: 30px;
-    }
-
-    .textos-button {
-        display: flex;
-        flex-wrap: wrap;
-        justify-content: center;
-        align-content: center;
-        text-align: center;
-    }
-
-    .info {
-        font-size: 30px;
-        display: flex;
-        flex-wrap: wrap;
-        justify-content: center;
-        align-content: center;
-        text-align: center;
-        padding: 0;
-    }
-
-    .texto {
-        display: flex;
-        flex-wrap: wrap;
-        justify-content: center;
-        align-content: center;
-        text-align: center;
-        padding: 20px;
-    }
-
-    .registro {
-        display: flex;
-        flex-wrap: wrap;
-        justify-content: center;
-        align-content: center;
-        text-align: center;
-        margin: 0 auto;
-    }
-
-    .footer {
-        margin: 0 auto;
-        padding: 100px 100px
-    }
-
-    }

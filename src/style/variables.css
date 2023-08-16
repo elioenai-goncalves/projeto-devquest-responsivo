@@ -1,5 +1,6 @@
 :root {
     --largura-maxima: 1440px;
+    --altura-maxima: 2560px;
 
     --fonte-titulos: 'Poppins', sans-serif;
     --peso-fonte-titulos: 600; 
